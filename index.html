@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hangman</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=VT323&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <h1>WISIELEC</h1>
+        </div>
+        <div class="github_logo">
+          <span>
+            <a target="_blank" href="https://github.com/DominikaDesign">
+              <i class="fab fa-github fa-fw"></i>
+            </a>
+          </span>
+        </div>
+        <div class="category" onclick="changeCategory()">
+          <p>Kategoria: Przysłowie</p>
+        </div>
+      </div>
+      <div class="game">
+        <div class="codeword"></div>
+        <div class="alphabet">
+          <!-- javascript -->
+        </div>
+        <div class="image">
+          <img src="img/hangman0.png" alt="hangman" />
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+      <div class="footer">
+        <div class="reload">
+          <button value="Refresh Page" onClick="window.location.reload();">
+            Losuj nowe hasło
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="js/hangman.js"></script>
+  </body>
+</html>
