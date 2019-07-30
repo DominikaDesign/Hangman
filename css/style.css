@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/background.png");
+  height: 100vh;
+  color: #919191;
+  font-family: "VT323", monospace;
+  /* zapobieganie zaznaczania tekstu*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container {
+  width: 1000px;
+  margin: 10px auto;
+}
+.header,
+.footer {
+  padding: 0;
+  margin: 0;
+  width: 1000px;
+  text-align: center;
+}
+.logo {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+.logo h1 {
+  margin: 0;
+  color: #884f9e;
+}
+.github_logo {
+  position: absolute;
+  margin: 0;
+  top: 20px;
+  right: 20px;
+  min-width: 30px;
+  height: 30px;
+}
+.github_logo i {
+  font-size: 30px;
+  color: #919191;
+}
+.github_logo i:hover {
+  color: #884f9e;
+}
+.category {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.codeword {
+  width: 1000px;
+  text-align: center;
+  min-height: 80px;
+  font-size: 60px;
+}
+.alphabet,
+.image {
+  float: left;
+  height: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+.alphabet {
+  width: 415px;
+  margin: 0 37.5px;
+}
+.image {
+  width: 490px;
+}
+.letters {
+  text-align: center;
+  font-size: 30px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid #919191;
+  border-radius: 15px;
+  font-size: 30px;
+  float: left;
+  cursor: pointer;
+}
+.letters:hover {
+  background-color: #414141;
+  color: #884f9e;
+  border: 2px solid #884f9e;
+}
+.alphabet p {
+  font-size: 35px;
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+.reset {
+  font-size: 70px;
+  transition: all 0.3s ease-in-out;
+}
+.reset:hover {
+  color: #884f9e;
+  cursor: pointer;
+}
+.reload {
+  text-align: center;
+}
+button {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 5px;
+  color: #884f9e;
+  border: 4px solid #884f9e;
+  border-radius: 15px;
+  width: 300px;
+  cursor: pointer;
+  font-family: "VT323", monospace;
+  background: none;
+  transition: transform 0.5s ease-in-out;
+}
+button:hover {
+  transform: scale(1.2);
+}
+@media (max-width: 990px) {
+  .container {
+    width: 490px;
+    overflow: hidden;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .header,
+  .codeword,
+  .footer {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
