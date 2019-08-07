@@ -17,6 +17,9 @@ body {
   width: 1000px;
   margin: 10px auto;
 }
+.header {
+  position: relative;
+}
 .header,
 .footer {
   padding: 0;
@@ -37,8 +40,8 @@ body {
 .github_logo {
   position: absolute;
   margin: 0;
-  top: 20px;
-  right: 20px;
+  top: 5%;
+  right: 0;
   min-width: 30px;
   height: 30px;
 }
